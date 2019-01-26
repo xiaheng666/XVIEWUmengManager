@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XVIEWUmengManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XVIEWUmengManager.'
+  s.summary          = 'Umeng库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,37 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/maomao520benben/XVIEWUmengManager'
+  s.homepage         = 'https://github.com/xiaheng666/XVIEWUmengManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'maomao520benben' => 'key@xiaheng.net' }
-  s.source           = { :git => 'https://github.com/maomao520benben/XVIEWUmengManager.git', :tag => s.version.to_s }
+  s.author           = { 'xiaheng666' => 'key@xiaheng.net' }
+  s.source           = { :git => 'git@github.com:xiaheng666/XVIEWUmengManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'XVIEWUmengManager/Classes/**/*'
   
+  s.dependency 'UMCCommon','~> 1.5.3'
+  
+  #s.default_subspec = 'XVIEWPushManager'
   # s.resource_bundles = {
   #   'XVIEWUmengManager' => ['XVIEWUmengManager/Assets/*.png']
   # }
-
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'XVIEWPushManager' do |ss|
+      ss.source_files = 'XVIEWUmengManager/Classes/XVIEWPushManager/*.h'
+      ss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWPushManager/*.a'
+      ss.dependency 'UMCCommon','~> 1.5.3'
+      ss.dependency 'UMCPush','~> 3.2.3'
+  end
+  s.subspec 'XVIEWAnalyzeManager' do |ss|
+      ss.source_files = 'XVIEWUmengManager/Classes/XVIEWAnalyzeManager/*.h'
+      ss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWAnalyzeManager/*.a'
+      ss.dependency 'UMCCommon','~> 1.5.3'
+      ss.dependency 'UMCAnalytics','~> 5.5.2'
+  end
 end

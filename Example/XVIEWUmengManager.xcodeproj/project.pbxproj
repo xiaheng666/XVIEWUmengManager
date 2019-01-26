@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30DA009C032859769EACF16A /* Pods_XVIEWUmengManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8798152F1E6D8F1307768F3 /* Pods_XVIEWUmengManager_Tests.framework */; };
-		53D7C2DB7CDAD8B0CC180272 /* Pods_XVIEWUmengManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941C5E4B29D17251CBA54F90 /* Pods_XVIEWUmengManager_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BA3939D44D9778B2F0EC4AE4 /* libPods-XVIEWUmengManager_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6381E6E67723518AD2460D18 /* libPods-XVIEWUmengManager_Example.a */; };
+		F671CDFE838199C770E57E5B /* libPods-XVIEWUmengManager_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2898A3CEDAE49A7C7A73887D /* libPods-XVIEWUmengManager_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2898A3CEDAE49A7C7A73887D /* libPods-XVIEWUmengManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XVIEWUmengManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3940CA2A01492B7EB354081C /* Pods-XVIEWUmengManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWUmengManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWUmengManager_Tests/Pods-XVIEWUmengManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B6E51A86E8B22CBA341BD3F /* XVIEWUmengManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XVIEWUmengManager.podspec; path = ../XVIEWUmengManager.podspec; sourceTree = "<group>"; };
+		4B6E51A86E8B22CBA341BD3F /* XVIEWUmengManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XVIEWUmengManager.podspec; path = ../XVIEWUmengManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* XVIEWUmengManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XVIEWUmengManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,15 +59,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6381E6E67723518AD2460D18 /* libPods-XVIEWUmengManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XVIEWUmengManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EAC5AA5F3C0127E89EDBD91 /* Pods-XVIEWUmengManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWUmengManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWUmengManager_Tests/Pods-XVIEWUmengManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		86F067E9B9EAA025E55E3972 /* Pods-XVIEWUmengManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWUmengManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWUmengManager_Example/Pods-XVIEWUmengManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		941C5E4B29D17251CBA54F90 /* Pods_XVIEWUmengManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWUmengManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A8B52976BA3472ADFFAAD4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AA555B1223AFE37E758629BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9A8B52976BA3472ADFFAAD4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AA555B1223AFE37E758629BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C96CBA216B7B33475A455917 /* Pods-XVIEWUmengManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWUmengManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWUmengManager_Example/Pods-XVIEWUmengManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E8798152F1E6D8F1307768F3 /* Pods_XVIEWUmengManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWUmengManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				53D7C2DB7CDAD8B0CC180272 /* Pods_XVIEWUmengManager_Example.framework in Frameworks */,
+				BA3939D44D9778B2F0EC4AE4 /* libPods-XVIEWUmengManager_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				30DA009C032859769EACF16A /* Pods_XVIEWUmengManager_Tests.framework in Frameworks */,
+				F671CDFE838199C770E57E5B /* libPods-XVIEWUmengManager_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				941C5E4B29D17251CBA54F90 /* Pods_XVIEWUmengManager_Example.framework */,
-				E8798152F1E6D8F1307768F3 /* Pods_XVIEWUmengManager_Tests.framework */,
+				6381E6E67723518AD2460D18 /* libPods-XVIEWUmengManager_Example.a */,
+				2898A3CEDAE49A7C7A73887D /* libPods-XVIEWUmengManager_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				36365D5A63757635A728D73F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,24 +293,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		36365D5A63757635A728D73F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWUmengManager_Example/Pods-XVIEWUmengManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XVIEWUmengManager/XVIEWUmengManager.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XVIEWUmengManager.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWUmengManager_Example/Pods-XVIEWUmengManager_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6E5F16E93E8C6090BA2F8B60 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

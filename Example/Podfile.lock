@@ -1,0 +1,39 @@
+PODS:
+  - UMCAnalytics (5.5.2):
+    - UMCCommon
+  - UMCCommon (1.5.3)
+  - UMCPush (3.2.3):
+    - UMCCommon
+  - XVIEWUmengManager (0.1.0):
+    - UMCCommon
+    - XVIEWUmengManager/XVIEWAnalyzeManager (= 0.1.0)
+    - XVIEWUmengManager/XVIEWPushManager (= 0.1.0)
+  - XVIEWUmengManager/XVIEWAnalyzeManager (0.1.0):
+    - UMCAnalytics
+    - UMCCommon
+  - XVIEWUmengManager/XVIEWPushManager (0.1.0):
+    - UMCCommon
+    - UMCPush
+
+DEPENDENCIES:
+  - XVIEWUmengManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UMCAnalytics
+    - UMCCommon
+    - UMCPush
+
+EXTERNAL SOURCES:
+  XVIEWUmengManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UMCAnalytics: 6654fd3c8201ff6da5c86a3ae29cd5c8436d3b7b
+  UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
+  UMCPush: 628b5c61be5a5036cb31eb9b3a3ab8dce7521691
+  XVIEWUmengManager: fb4b78cd647ad96f868dbf03afa20ebc9335e2ba
+
+PODFILE CHECKSUM: 53c78bf7167b778174bd67746adcdc0a9c504be0
+
+COCOAPODS: 1.5.3

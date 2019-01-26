@@ -1,0 +1,59 @@
+{
+  "name": "XVIEWUmengManager",
+  "version": "0.1.0",
+  "summary": "Umeng库",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaheng666/XVIEWUmengManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaheng666": "key@xiaheng.net"
+  },
+  "source": {
+    "git": "git@github.com:xiaheng666/XVIEWUmengManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XVIEWUmengManager/Classes/**/*",
+  "dependencies": {
+    "UMCCommon": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "XVIEWPushManager",
+      "source_files": "XVIEWUmengManager/Classes/XVIEWPushManager/*.h",
+      "ios": {
+        "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWPushManager/*.a"
+      },
+      "dependencies": {
+        "UMCCommon": [
+
+        ],
+        "UMCPush": [
+
+        ]
+      }
+    },
+    {
+      "name": "XVIEWAnalyzeManager",
+      "source_files": "XVIEWUmengManager/Classes/XVIEWAnalyzeManager/*.h",
+      "ios": {
+        "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWAnalyzeManager/*.a"
+      },
+      "dependencies": {
+        "UMCCommon": [
+
+        ],
+        "UMCAnalytics": [
+
+        ]
+      }
+    }
+  ]
+}
