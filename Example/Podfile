@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XVIEWUmengManager_Example' do
+  pod 'XVIEWUmengManager', :path => '../'
+
+  target 'XVIEWUmengManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
