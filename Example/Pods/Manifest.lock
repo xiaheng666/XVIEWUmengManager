@@ -1,38 +1,115 @@
 PODS:
+  - AlipaySDK-iOS (15.5.9)
+  - TencentOpenApiSDK (2.9.5):
+    - TencentOpenApiSDK/Basic (= 2.9.5)
+  - TencentOpenApiSDK/Basic (2.9.5)
   - UMCAnalytics (5.5.2):
     - UMCCommon
   - UMCCommon (1.5.3)
   - UMCPush (3.2.3):
     - UMCCommon
-  - XVIEWUmengManager (0.1.0):
+  - UMCShare/Core (6.9.5):
     - UMCCommon
-    - XVIEWUmengManager/XVIEWAnalyzeManager (= 0.1.0)
-    - XVIEWUmengManager/XVIEWPushManager (= 0.1.0)
-  - XVIEWUmengManager/XVIEWAnalyzeManager (0.1.0):
-    - UMCAnalytics
+  - UMCShare/Social/AlipayShare (6.9.5):
     - UMCCommon
-  - XVIEWUmengManager/XVIEWPushManager (0.1.0):
+    - UMCShare/Core
+  - UMCShare/Social/ReducedQQ (6.9.5):
     - UMCCommon
-    - UMCPush
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - WechatOpenSDK (1.8.3)
+  - XVIEWUmengManager (0.1.1):
+    - UMCCommon (~> 1.5.3)
+    - XVIEWUmengManager/Share (= 0.1.1)
+    - XVIEWUmengManager/XVIEWAnalyzeManager (= 0.1.1)
+    - XVIEWUmengManager/XVIEWPushManager (= 0.1.1)
+  - XVIEWUmengManager/Share (0.1.1):
+    - AlipaySDK-iOS
+    - TencentOpenApiSDK (~> 2.9.5)
+    - UMCCommon (~> 1.5.3)
+    - UMCShare/Social/AlipayShare
+    - UMCShare/Social/ReducedQQ
+    - UMCShare/Social/ReducedSina
+    - UMCShare/Social/ReducedWeChat
+    - WechatOpenSDK (~> 1.8.3)
+    - XVIEWUmengManager/Share/XVIEWAliManager (= 0.1.1)
+    - XVIEWUmengManager/Share/XVIEWTencentManager (= 0.1.1)
+    - XVIEWUmengManager/Share/XVIEWWeChatManager (= 0.1.1)
+    - XVIEWUmengManager/Share/XVIEWWeiboManager (= 0.1.1)
+  - XVIEWUmengManager/Share/XVIEWAliManager (0.1.1):
+    - AlipaySDK-iOS
+    - TencentOpenApiSDK (~> 2.9.5)
+    - UMCCommon (~> 1.5.3)
+    - UMCShare/Social/AlipayShare
+    - UMCShare/Social/ReducedQQ
+    - UMCShare/Social/ReducedSina
+    - UMCShare/Social/ReducedWeChat
+    - WechatOpenSDK (~> 1.8.3)
+  - XVIEWUmengManager/Share/XVIEWTencentManager (0.1.1):
+    - AlipaySDK-iOS
+    - TencentOpenApiSDK (~> 2.9.5)
+    - UMCCommon (~> 1.5.3)
+    - UMCShare/Social/AlipayShare
+    - UMCShare/Social/ReducedQQ
+    - UMCShare/Social/ReducedSina
+    - UMCShare/Social/ReducedWeChat
+    - WechatOpenSDK (~> 1.8.3)
+  - XVIEWUmengManager/Share/XVIEWWeChatManager (0.1.1):
+    - AlipaySDK-iOS
+    - TencentOpenApiSDK (~> 2.9.5)
+    - UMCCommon (~> 1.5.3)
+    - UMCShare/Social/AlipayShare
+    - UMCShare/Social/ReducedQQ
+    - UMCShare/Social/ReducedSina
+    - UMCShare/Social/ReducedWeChat
+    - WechatOpenSDK (~> 1.8.3)
+  - XVIEWUmengManager/Share/XVIEWWeiboManager (0.1.1):
+    - AlipaySDK-iOS
+    - TencentOpenApiSDK (~> 2.9.5)
+    - UMCCommon (~> 1.5.3)
+    - UMCShare/Social/AlipayShare
+    - UMCShare/Social/ReducedQQ
+    - UMCShare/Social/ReducedSina
+    - UMCShare/Social/ReducedWeChat
+    - WechatOpenSDK (~> 1.8.3)
+  - XVIEWUmengManager/XVIEWAnalyzeManager (0.1.1):
+    - UMCAnalytics (~> 5.5.2)
+    - UMCCommon (~> 1.5.3)
+  - XVIEWUmengManager/XVIEWPushManager (0.1.1):
+    - UMCCommon (~> 1.5.3)
+    - UMCPush (~> 3.2.3)
 
 DEPENDENCIES:
   - XVIEWUmengManager (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AlipaySDK-iOS
+    - TencentOpenApiSDK
     - UMCAnalytics
     - UMCCommon
     - UMCPush
+    - UMCShare
+    - WechatOpenSDK
 
 EXTERNAL SOURCES:
   XVIEWUmengManager:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
+  TencentOpenApiSDK: a0d7716edd6eb438d65828168e8e5137301b436d
   UMCAnalytics: 6654fd3c8201ff6da5c86a3ae29cd5c8436d3b7b
   UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
   UMCPush: 628b5c61be5a5036cb31eb9b3a3ab8dce7521691
-  XVIEWUmengManager: fb4b78cd647ad96f868dbf03afa20ebc9335e2ba
+  UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
+  WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
+  XVIEWUmengManager: f6e6006f29006c68ee21edd1f193d891950bceee
 
 PODFILE CHECKSUM: 53c78bf7167b778174bd67746adcdc0a9c504be0
 
