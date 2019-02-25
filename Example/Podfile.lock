@@ -23,36 +23,36 @@ PODS:
     - UMCCommon
     - UMCShare/Core
   - WechatOpenSDK (1.8.3)
-  - XVIEWUmengManager (0.1.2):
+  - XVIEWUmengManager (0.1.4):
     - UMCCommon (~> 1.5.3)
-    - XVIEWUmengManager/Share (= 0.1.2)
-    - XVIEWUmengManager/XVIEWAnalyzeManager (= 0.1.2)
-    - XVIEWUmengManager/XVIEWPushManager (= 0.1.2)
-  - XVIEWUmengManager/Share (0.1.2):
+    - XVIEWUmengManager/Share (= 0.1.4)
+    - XVIEWUmengManager/XVIEWAnalyzeManager (= 0.1.4)
+    - XVIEWUmengManager/XVIEWPushManager (= 0.1.4)
+  - XVIEWUmengManager/Share (0.1.4):
     - UMCCommon (~> 1.5.3)
-    - XVIEWUmengManager/Share/XVIEWAliManager (= 0.1.2)
-    - XVIEWUmengManager/Share/XVIEWTencentManager (= 0.1.2)
-    - XVIEWUmengManager/Share/XVIEWWeChatManager (= 0.1.2)
-    - XVIEWUmengManager/Share/XVIEWWeiboManager (= 0.1.2)
-  - XVIEWUmengManager/Share/XVIEWAliManager (0.1.2):
+    - XVIEWUmengManager/Share/XVIEWAliManager (= 0.1.4)
+    - XVIEWUmengManager/Share/XVIEWTencentManager (= 0.1.4)
+    - XVIEWUmengManager/Share/XVIEWWeChatManager (= 0.1.4)
+    - XVIEWUmengManager/Share/XVIEWWeiboManager (= 0.1.4)
+  - XVIEWUmengManager/Share/XVIEWAliManager (0.1.4):
     - AlipaySDK-iOS
     - UMCCommon (~> 1.5.3)
     - UMCShare/Social/AlipayShare
-  - XVIEWUmengManager/Share/XVIEWTencentManager (0.1.2):
+  - XVIEWUmengManager/Share/XVIEWTencentManager (0.1.4):
     - TencentOpenApiSDK (~> 2.9.5)
     - UMCCommon (~> 1.5.3)
     - UMCShare/Social/ReducedQQ
-  - XVIEWUmengManager/Share/XVIEWWeChatManager (0.1.2):
+  - XVIEWUmengManager/Share/XVIEWWeChatManager (0.1.4):
     - UMCCommon (~> 1.5.3)
     - UMCShare/Social/ReducedWeChat
     - WechatOpenSDK (~> 1.8.3)
-  - XVIEWUmengManager/Share/XVIEWWeiboManager (0.1.2):
+  - XVIEWUmengManager/Share/XVIEWWeiboManager (0.1.4):
     - UMCCommon (~> 1.5.3)
     - UMCShare/Social/ReducedSina
-  - XVIEWUmengManager/XVIEWAnalyzeManager (0.1.2):
+  - XVIEWUmengManager/XVIEWAnalyzeManager (0.1.4):
     - UMCAnalytics (~> 5.5.2)
     - UMCCommon (~> 1.5.3)
-  - XVIEWUmengManager/XVIEWPushManager (0.1.2):
+  - XVIEWUmengManager/XVIEWPushManager (0.1.4):
     - UMCCommon (~> 1.5.3)
     - UMCPush (~> 3.2.3)
 
@@ -81,7 +81,7 @@ SPEC CHECKSUMS:
   UMCPush: 628b5c61be5a5036cb31eb9b3a3ab8dce7521691
   UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
   WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
-  XVIEWUmengManager: 31d8da74be9081a90042c5d120e13e90d90f8c8b
+  XVIEWUmengManager: b9653586e8706ef4247f9c795c1fd52399b89923
 
 PODFILE CHECKSUM: 53c78bf7167b778174bd67746adcdc0a9c504be0
 
