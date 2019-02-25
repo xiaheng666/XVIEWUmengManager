@@ -1,6 +1,6 @@
 {
   "name": "XVIEWUmengManager",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "Umeng库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWUmengManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWUmengManager.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
@@ -128,24 +128,6 @@
               "~> 1.5.3"
             ],
             "UMCShare/Social/ReducedSina": [
-
-            ]
-          }
-        },
-        {
-          "name": "XVIEWAliManager",
-          "source_files": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.h",
-          "ios": {
-            "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.a"
-          },
-          "dependencies": {
-            "UMCCommon": [
-              "~> 1.5.3"
-            ],
-            "AlipaySDK-iOS": [
-
-            ],
-            "UMCShare/Social/AlipayShare": [
 
             ]
           }
