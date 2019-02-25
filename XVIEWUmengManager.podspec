@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWUmengManager'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Umeng库'
 
 # This description is used to generate tags and improve search results.
@@ -57,8 +57,7 @@ TODO: Add long description of the pod here.
       ss.dependency 'UMCAnalytics','~> 5.5.2'
   end
   s.subspec 'Share' do |ss|
-      ss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.h'
-      ss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.a'
+      ss.ios.vendored_frameworks = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.framework'
       ss.dependency 'UMCCommon','~> 1.5.3'
       ss.subspec 'XVIEWTencentManager' do |sss|
           sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/*.h'
@@ -84,11 +83,11 @@ TODO: Add long description of the pod here.
           #sss.dependency 'XVIEWUmengManager/Share'
       end
       ss.subspec 'XVIEWAliManager' do |sss|
-          sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.h'
-          sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.a'
-          sss.dependency 'UMCCommon','~> 1.5.3'
-          sss.dependency 'AlipaySDK-iOS'
-          sss.dependency 'UMCShare/Social/AlipayShare'
+         sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.h'
+         sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.a'
+         sss.dependency 'UMCCommon','~> 1.5.3'
+         sss.dependency 'AlipaySDK-iOS'
+         sss.dependency 'UMCShare/Social/AlipayShare'
           #sss.dependency 'XVIEWUmengManager/Share'
       end
   end

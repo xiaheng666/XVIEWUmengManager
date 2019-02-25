@@ -72,9 +72,8 @@
     },
     {
       "name": "Share",
-      "source_files": "XVIEWUmengManager/Classes/XVIEWShareManager/*.h",
       "ios": {
-        "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWShareManager/*.a"
+        "vendored_frameworks": "XVIEWUmengManager/Classes/XVIEWShareManager/*.framework"
       },
       "dependencies": {
         "UMCCommon": [

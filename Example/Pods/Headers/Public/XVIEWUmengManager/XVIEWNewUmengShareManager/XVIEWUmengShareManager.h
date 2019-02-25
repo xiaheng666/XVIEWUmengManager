@@ -1,0 +1,1 @@
+../../../../../../XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWNewUmengShareManager.framework/Headers/XVIEWUmengShareManager.h
