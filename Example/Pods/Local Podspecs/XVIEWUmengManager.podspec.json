@@ -71,7 +71,7 @@
       }
     },
     {
-      "name": "Share",
+      "name": "XVIEWShare",
       "ios": {
         "vendored_frameworks": "XVIEWUmengManager/Classes/XVIEWShareManager/*.framework"
       },
@@ -79,7 +79,10 @@
         "UMCCommon": [
           "~> 1.5.3"
         ]
-      },
+      }
+    },
+    {
+      "name": "Share",
       "subspecs": [
         {
           "name": "XVIEWTencentManager",
@@ -95,6 +98,9 @@
               "~> 2.9.5"
             ],
             "UMCShare/Social/ReducedQQ": [
+
+            ],
+            "XVIEWUmengManager/XVIEWShare": [
 
             ]
           }
@@ -114,6 +120,9 @@
             ],
             "UMCShare/Social/ReducedWeChat": [
 
+            ],
+            "XVIEWUmengManager/XVIEWShare": [
+
             ]
           }
         },
@@ -128,6 +137,30 @@
               "~> 1.5.3"
             ],
             "UMCShare/Social/ReducedSina": [
+
+            ],
+            "XVIEWUmengManager/XVIEWShare": [
+
+            ]
+          }
+        },
+        {
+          "name": "XVIEWAliManager",
+          "source_files": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.h",
+          "ios": {
+            "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.a"
+          },
+          "dependencies": {
+            "UMCCommon": [
+              "~> 1.5.3"
+            ],
+            "AlipaySDK-iOS": [
+
+            ],
+            "UMCShare/Social/AlipayShare": [
+
+            ],
+            "XVIEWUmengManager/XVIEWShare": [
 
             ]
           }
