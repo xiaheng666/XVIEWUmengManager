@@ -1,0 +1,1 @@
+../../../../../XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/XVIEWWeChatManager.h

@@ -22,63 +22,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		016621AB41E26FDCB3E6879885CC7A08 /* libTencentManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTencentManager.a; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/libTencentManager.a; sourceTree = "<group>"; };
+		01E848B310FE1FA6EF5D1BD28AB95E5F /* XVIEWWeiboManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWWeiboManager.h; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeiboManager/XVIEWWeiboManager.h; sourceTree = "<group>"; };
 		034785B8F242F6DE3EC0213301771819 /* Pods-XVIEWUmengManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWUmengManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		0895813388E3989798868C39EAA1FEFD /* Pods-XVIEWUmengManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWUmengManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0AFD2614A951D8212A2CED9B3878BB03 /* Pods-XVIEWUmengManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWUmengManager_Example-resources.sh"; sourceTree = "<group>"; };
-		0BB589CDE7BD525C1AAC827CF3BCD546 /* libAliManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libAliManager.a; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/libAliManager.a; sourceTree = "<group>"; };
 		0DAC57CD60159A098BB4E2CFC8E7D251 /* APOpenAPIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APOpenAPIObject.h; path = UMShare/SocialLibraries/AlipayShare/APOpenAPIObject.h; sourceTree = "<group>"; };
 		140557CDBC18F06C3E6DD923395134C9 /* Pods-XVIEWUmengManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWUmengManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		144C7580DBF680D3BC5564C02F57272C /* libAliManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libAliManager.a; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/libAliManager.a; sourceTree = "<group>"; };
 		147B291516100C08A913E389973B5AA6 /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UMShare/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
 		1871EA61A5E13A32C0F287782F3E9595 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
 		1D8CB1E9C5D22DB3C58C4C26FFA59322 /* libPods-XVIEWUmengManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XVIEWUmengManager_Example.a"; path = "libPods-XVIEWUmengManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBB2AE6A7508C1223DB4F26AFFEAFD5 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/libcrypto.a; sourceTree = "<group>"; };
+		2D38AAD7D03A6FC380E252E5598338EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2D63CB092EDBE1E79BF3198039E4339C /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UMShare/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		33227AD2367E08CFFA584AD88FB5C72A /* XVIEWPushManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XVIEWPushManager.h; sourceTree = "<group>"; };
 		353F32117D2A8576EDA81A4E4CA2E2E1 /* libSocialSina.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialSina.a; path = UMShare/SocialLibraries/Sina/libSocialSina.a; sourceTree = "<group>"; };
 		36A89946E9F2B07A0E23A9A6D23CA013 /* Pods-XVIEWUmengManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWUmengManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		388993AF6FB639A857B7EE411CA210D5 /* Pods-XVIEWUmengManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWUmengManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3B0D6DF03733CF7EA1BB9697BA917640 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UMShare/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
 		3CA5BCE3DEDCD14DAAAEF838DE3673D7 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOAuth.h; path = Basic/TencentOpenAPI.framework/Headers/TencentOAuth.h; sourceTree = "<group>"; };
+		3CFE8E42441B7896F027AFC83765EFE0 /* libWeiboManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboManager.a; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeiboManager/libWeiboManager.a; sourceTree = "<group>"; };
 		3D0617F06A3B614ECCA6949E55FFAAA6 /* Pods-XVIEWUmengManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWUmengManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3F991FB40DFEE93E1232F8B8C90A95C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3FECD5A1895D635B7E5BB6129723B91C /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sdkdef.h; path = Basic/TencentOpenAPI.framework/Headers/sdkdef.h; sourceTree = "<group>"; };
+		407F8104BAA691BB61F24673F2AE2F84 /* XVIEWAliManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWAliManager.h; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/XVIEWAliManager.h; sourceTree = "<group>"; };
 		458D10D6A24253662AFD84691BDDAB3B /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = UMShare/SocialLibraries/QQ/UMSocialQQHandler.h; sourceTree = "<group>"; };
+		45BA7493F7B22F7E9E2E63E11914AEAA /* XVIEWUmengManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWUmengManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		49E01EC38C9B7DA68498B43A9AD07C22 /* UMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMPush.framework; sourceTree = "<group>"; };
 		4BCF624B5C6C469C4A32E84A240D9437 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.3/WXApi.h; sourceTree = "<group>"; };
+		4C070C6E65B00E8DE3F0FB5578B4BCAA /* XVIEWTencentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWTencentManager.h; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/XVIEWTencentManager.h; sourceTree = "<group>"; };
+		4D486284073EA4F4F8A4E34185EFD230 /* libUmengShareManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUmengShareManager.a; path = XVIEWUmengManager/Classes/XVIEWShareManager/libUmengShareManager.a; sourceTree = "<group>"; };
 		5159AB1B77C7D65E9E3D75C787965E3B /* TencentOAuthObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOAuthObject.h; path = Basic/TencentOpenAPI.framework/Headers/TencentOAuthObject.h; sourceTree = "<group>"; };
 		572B300166A6C511E739F1C3467064C3 /* libSocialAlipayShare.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialAlipayShare.a; path = UMShare/SocialLibraries/AlipayShare/libSocialAlipayShare.a; sourceTree = "<group>"; };
+		63E31FB29C34ADC23A8000927A0E3A44 /* XVIEWAnalyzeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XVIEWAnalyzeManager.h; sourceTree = "<group>"; };
 		6432982EA919C55A4D77C363B14CA909 /* Pods-XVIEWUmengManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWUmengManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68F3A6975C5B402C1766410A6E1F9EE1 /* libAnalyzeManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libAnalyzeManager.a; path = XVIEWUmengManager/Classes/XVIEWAnalyzeManager/libAnalyzeManager.a; sourceTree = "<group>"; };
+		6B07D0B1459F5C9C5B1B9E5DA6ADB280 /* XVIEWUmengShareManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWUmengShareManager.h; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWUmengShareManager.h; sourceTree = "<group>"; };
 		6EDED4BB27857C23803B02B5D5320C05 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = Basic/TencentOpenAPI.framework; sourceTree = "<group>"; };
 		73D4CC5709A479D342A695DC476159FF /* Pods-XVIEWUmengManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWUmengManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		74AF09A4842B73618B799A71446A81CE /* APOpenAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APOpenAPI.h; path = UMShare/SocialLibraries/AlipayShare/APOpenAPI.h; sourceTree = "<group>"; };
 		74CE7EF9358C98D7ABD6C16B760D7FFC /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.3/WechatAuthSDK.h; sourceTree = "<group>"; };
-		795249040F570A1124A81AF10A64DECA /* libPushManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPushManager.a; path = XVIEWUmengManager/Classes/XVIEWPushManager/libPushManager.a; sourceTree = "<group>"; };
-		7ABBCB897E5483221284E56DE02BBF0A /* XVIEWAnalyzeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XVIEWAnalyzeManager.h; sourceTree = "<group>"; };
-		801A027A998485F64D028761ADD44965 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		767E6FDCA0D97FCFF511BDE266AA2F38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		85F5A1D69560A5B4194DE8982C15E093 /* Pods-XVIEWUmengManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWUmengManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		9063DA002869037E03EB5360541CBA2E /* Pods-XVIEWUmengManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWUmengManager_Example-dummy.m"; sourceTree = "<group>"; };
-		9285138E8478FDCFCEE58E3DE0AFB631 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/libssl.a; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940D019E0FAAA25D7CC71244E8F94E1C /* Pods-XVIEWUmengManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWUmengManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B4290F61050847F2DB7763A6C8FE629 /* Pods-XVIEWUmengManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWUmengManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A024C96ACE6883ED197716F149F9C288 /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterface.h; path = Basic/TencentOpenAPI.framework/Headers/QQApiInterface.h; sourceTree = "<group>"; };
-		A49DB15E2E82C507461A79741A1B7D65 /* XVIEWAliManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWAliManager.h; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/XVIEWAliManager.h; sourceTree = "<group>"; };
 		A4D7B3E0EE86B3B2F4472A507C8D84B7 /* Pods-XVIEWUmengManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWUmengManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A54993668DA219131CA7E0958B1194B9 /* UMSocialAlipayHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialAlipayHandler.h; path = UMShare/SocialLibraries/AlipayShare/UMSocialAlipayHandler.h; sourceTree = "<group>"; };
-		AAD8C7375E914AD3EE5B66D6819AA9C6 /* XVIEWUmengManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWUmengManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC1CBF853BEEA4F5E9E9074FC2D9AFCE /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/libcrypto.a; sourceTree = "<group>"; };
-		ACCE4909FDAC412A5BE9C62E5E45B415 /* libUmengManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUmengManager.a; path = XVIEWUmengManager/Classes/libUmengManager.a; sourceTree = "<group>"; };
 		B3F18EDB38EB8317C59C7A0135FE41AD /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		B59A61E4ECE4F39F2DC3B943DB6F5ECC /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		B7271FB1C9DF58FE9E07A9CE9F3B7246 /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSinaHandler.h; path = UMShare/SocialLibraries/Sina/UMSocialSinaHandler.h; sourceTree = "<group>"; };
-		B82F7BA0B0324BF0D69938AA8FE11A25 /* XVIEWPushManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XVIEWPushManager.h; sourceTree = "<group>"; };
 		B8C541EFDF86D6C50781C53FC7360C86 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		C1D79E49D0270DA382072B10A03317E9 /* libWeChatManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatManager.a; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/libWeChatManager.a; sourceTree = "<group>"; };
 		C533EF23B43A4838EE813BEBE841CAB9 /* libAPOpenSdk.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libAPOpenSdk.a; path = UMShare/SocialLibraries/AlipayShare/libAPOpenSdk.a; sourceTree = "<group>"; };
 		C7108EDA23FC1A085500A093F786B2A0 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.3/WXApiObject.h; sourceTree = "<group>"; };
 		CC2119F6D97499565ACA72427599BD1E /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMShare.framework; path = UMShare/UMShare.framework; sourceTree = "<group>"; };
+		D12F58FEBE64DA41D652E94EB8AE3205 /* XVIEWUmengManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWUmengManager.h; path = XVIEWUmengManager/Classes/XVIEWUmengManager.h; sourceTree = "<group>"; };
 		D34B2207B8D8F64DB426134B04FAE716 /* libPods-XVIEWUmengManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XVIEWUmengManager_Tests.a"; path = "libPods-XVIEWUmengManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF02E69B7E485958D7515DB9C750391 /* libPushManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPushManager.a; path = XVIEWUmengManager/Classes/XVIEWPushManager/libPushManager.a; sourceTree = "<group>"; };
 		DFE4A842E1C9E068AF3CD0E9F8F31E27 /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterfaceObject.h; path = Basic/TencentOpenAPI.framework/Headers/QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		E6D263F778CB35DBC038C89150BB19DC /* XVIEWWeChatManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWWeChatManager.h; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/XVIEWWeChatManager.h; sourceTree = "<group>"; };
 		E7778D3D77A8090C5B5B653C74B58625 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.3/libWeChatSDK.a; sourceTree = "<group>"; };
-		E911C3208A87D5A8F167ED3D5957456F /* libAnalyzeManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libAnalyzeManager.a; path = XVIEWUmengManager/Classes/XVIEWAnalyzeManager/libAnalyzeManager.a; sourceTree = "<group>"; };
-		FC62CAB3E5E26B24FA62A16CCE3F155D /* XVIEWUmengManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWUmengManager.h; path = XVIEWUmengManager/Classes/XVIEWUmengManager.h; sourceTree = "<group>"; };
+		EC8ED129C859B01CD791478CB20444F9 /* libUmengManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUmengManager.a; path = XVIEWUmengManager/Classes/libUmengManager.a; sourceTree = "<group>"; };
+		FD8FC3E55AED966D24DEB46A3B6E8EA3 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/libssl.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01E8DD63109E2FE16B2A86B186E4B33D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC8ED129C859B01CD791478CB20444F9 /* libUmengManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		06E6FF3F3980A94F2EADEFDA76F54B9C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,7 +169,7 @@
 		14FCEA55C34B446A5C704B64ADC5303E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				688D263A83F8E27B87CD8AF093BBC861 /* XVIEWUmengManager */,
+				3B6B145DB92F68C18F10A7B9A5B65441 /* XVIEWUmengManager */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -174,6 +190,14 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		221EC804063C783FAC4F0265BD285C9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				016621AB41E26FDCB3E6879885CC7A08 /* libTencentManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		25CA4BD35A679F23AF147B184031E557 /* UMCAnalytics */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +205,15 @@
 			);
 			name = UMCAnalytics;
 			path = UMCAnalytics;
+			sourceTree = "<group>";
+		};
+		297561E9E953B1B3F612A4FCC45AB4D7 /* XVIEWAnalyzeManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA4810733EEA2F61E9DD6F53F6C636FE /* Frameworks */,
+				565C941496523683C3B1010EC3D55175 /* XVIEWAnalyzeManager */,
+			);
+			name = XVIEWAnalyzeManager;
 			sourceTree = "<group>";
 		};
 		2C4770CCB21C7B62E75A5A43765210D1 /* Pods-XVIEWUmengManager_Tests */ = {
@@ -227,12 +260,18 @@
 			name = AlipayShare;
 			sourceTree = "<group>";
 		};
-		496B3331771CCC28827C8EC1EF0C8768 /* Frameworks */ = {
+		3B6B145DB92F68C18F10A7B9A5B65441 /* XVIEWUmengManager */ = {
 			isa = PBXGroup;
 			children = (
-				ACCE4909FDAC412A5BE9C62E5E45B415 /* libUmengManager.a */,
+				D12F58FEBE64DA41D652E94EB8AE3205 /* XVIEWUmengManager.h */,
+				01E8DD63109E2FE16B2A86B186E4B33D /* Frameworks */,
+				6539AD10308E56C731C8EDB63071B05E /* Pod */,
+				CCDF368A56C38FB42E4C957D3CBE9308 /* Share */,
+				297561E9E953B1B3F612A4FCC45AB4D7 /* XVIEWAnalyzeManager */,
+				FCF6759068602E4033A3D8D63E3CF326 /* XVIEWPushManager */,
 			);
-			name = Frameworks;
+			name = XVIEWUmengManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4E1378B0CEC66E71FB101C7E24CEC225 /* Frameworks */ = {
@@ -252,6 +291,14 @@
 			path = TencentOpenApiSDK;
 			sourceTree = "<group>";
 		};
+		4FF0F0AA1A06900F4B74F40A5E315DD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D486284073EA4F4F8A4E34185EFD230 /* libUmengShareManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4FF7451A75734125E8E357211E598391 /* UMCPush */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,12 +316,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		531BCF01D90F4F4CA1574AB7A4A2BCD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBF02E69B7E485958D7515DB9C750391 /* libPushManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		565C941496523683C3B1010EC3D55175 /* XVIEWAnalyzeManager */ = {
+			isa = PBXGroup;
+			children = (
+				63E31FB29C34ADC23A8000927A0E3A44 /* XVIEWAnalyzeManager.h */,
+			);
+			name = XVIEWAnalyzeManager;
+			path = XVIEWUmengManager/Classes/XVIEWAnalyzeManager;
+			sourceTree = "<group>";
+		};
 		5C02BD857996971BF64B1910C7C6C7C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				1871EA61A5E13A32C0F287782F3E9595 /* UMAnalytics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6539AD10308E56C731C8EDB63071B05E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2D38AAD7D03A6FC380E252E5598338EF /* LICENSE */,
+				767E6FDCA0D97FCFF511BDE266AA2F38 /* README.md */,
+				45BA7493F7B22F7E9E2E63E11914AEAA /* XVIEWUmengManager.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		662B12660A0343868104D29CE8845663 /* Products */ = {
@@ -286,30 +360,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6814E69FB69FA7F0C9F543B43BA6DE88 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				801A027A998485F64D028761ADD44965 /* LICENSE */,
-				3F991FB40DFEE93E1232F8B8C90A95C4 /* README.md */,
-				AAD8C7375E914AD3EE5B66D6819AA9C6 /* XVIEWUmengManager.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		688D263A83F8E27B87CD8AF093BBC861 /* XVIEWUmengManager */ = {
-			isa = PBXGroup;
-			children = (
-				FC62CAB3E5E26B24FA62A16CCE3F155D /* XVIEWUmengManager.h */,
-				496B3331771CCC28827C8EC1EF0C8768 /* Frameworks */,
-				6814E69FB69FA7F0C9F543B43BA6DE88 /* Pod */,
-				F53AF96A2B98B3D2423FADBC1DD86641 /* Share */,
-				FB73AFCB2AD7C64D417394089099B14D /* XVIEWAnalyzeManager */,
-				E9FC6BBF28DB1948F1685FEE7D1E692A /* XVIEWPushManager */,
-			);
-			name = XVIEWUmengManager;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		6B360B48AB51DD7EF4BE0D8E8762ED8A /* ReducedSina */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +367,15 @@
 				4E1378B0CEC66E71FB101C7E24CEC225 /* Frameworks */,
 			);
 			name = ReducedSina;
+			sourceTree = "<group>";
+		};
+		6C2C76C5189DEE147D72EA3A5CC75BCD /* XVIEWPushManager */ = {
+			isa = PBXGroup;
+			children = (
+				33227AD2367E08CFFA584AD88FB5C72A /* XVIEWPushManager.h */,
+			);
+			name = XVIEWPushManager;
+			path = XVIEWUmengManager/Classes/XVIEWPushManager;
 			sourceTree = "<group>";
 		};
 		7037EE243623E9282A816F05D9CDA245 /* Core */ = {
@@ -341,15 +400,6 @@
 				E7778D3D77A8090C5B5B653C74B58625 /* libWeChatSDK.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7C49C5F85BBBB1A7EBEA29DD909F6C45 /* XVIEWPushManager */ = {
-			isa = PBXGroup;
-			children = (
-				B82F7BA0B0324BF0D69938AA8FE11A25 /* XVIEWPushManager.h */,
-			);
-			name = XVIEWPushManager;
-			path = XVIEWUmengManager/Classes/XVIEWPushManager;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -383,12 +433,13 @@
 			name = ReducedQQ;
 			sourceTree = "<group>";
 		};
-		8AFE82486BC6A0BC0E68BA08018469B3 /* Frameworks */ = {
+		951F39CDBFB82948B19D759CE7B1AD3A /* XVIEWAliManager */ = {
 			isa = PBXGroup;
 			children = (
-				795249040F570A1124A81AF10A64DECA /* libPushManager.a */,
+				407F8104BAA691BB61F24673F2AE2F84 /* XVIEWAliManager.h */,
+				BF31D4C44963379A770C53F93E4EC9C4 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = XVIEWAliManager;
 			sourceTree = "<group>";
 		};
 		9D13C379D45CB5178F9BF4EC102EBE3E /* Pods-XVIEWUmengManager_Example */ = {
@@ -406,6 +457,22 @@
 			path = "Target Support Files/Pods-XVIEWUmengManager_Example";
 			sourceTree = "<group>";
 		};
+		AA4810733EEA2F61E9DD6F53F6C636FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68F3A6975C5B402C1766410A6E1F9EE1 /* libAnalyzeManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB1350C1FD257A1A4BD1E7277F3F8584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CFE8E42441B7896F027AFC83765EFE0 /* libWeiboManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE481C9B7D7617C72F47A76E35248529 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
@@ -417,15 +484,6 @@
 				B967E3DB705137FD386B370B7E317E46 /* Frameworks */,
 			);
 			name = Basic;
-			sourceTree = "<group>";
-		};
-		AF4DB817DAE9164BD99841D5B843B0C3 /* XVIEWAnalyzeManager */ = {
-			isa = PBXGroup;
-			children = (
-				7ABBCB897E5483221284E56DE02BBF0A /* XVIEWAnalyzeManager.h */,
-			);
-			name = XVIEWAnalyzeManager;
-			path = XVIEWUmengManager/Classes/XVIEWAnalyzeManager;
 			sourceTree = "<group>";
 		};
 		B07AB4476C08BB69E55B47CD563CADB6 /* Frameworks */ = {
@@ -444,6 +502,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF31D4C44963379A770C53F93E4EC9C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				144C7580DBF680D3BC5564C02F57272C /* libAliManager.a */,
+				1EBB2AE6A7508C1223DB4F26AFFEAFD5 /* libcrypto.a */,
+				FD8FC3E55AED966D24DEB46A3B6E8EA3 /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3F80A278E34D3BF853F5811F2049073 /* UMCCommon */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,23 +521,43 @@
 			path = UMCCommon;
 			sourceTree = "<group>";
 		};
-		D94FE9B0BECDF0953DBF7FBEC5928D4E /* Frameworks */ = {
+		CCDF368A56C38FB42E4C957D3CBE9308 /* Share */ = {
 			isa = PBXGroup;
 			children = (
-				0BB589CDE7BD525C1AAC827CF3BCD546 /* libAliManager.a */,
-				AC1CBF853BEEA4F5E9E9074FC2D9AFCE /* libcrypto.a */,
-				9285138E8478FDCFCEE58E3DE0AFB631 /* libssl.a */,
+				6B07D0B1459F5C9C5B1B9E5DA6ADB280 /* XVIEWUmengShareManager.h */,
+				4FF0F0AA1A06900F4B74F40A5E315DD3 /* Frameworks */,
+				951F39CDBFB82948B19D759CE7B1AD3A /* XVIEWAliManager */,
+				EE4E500A3B4F442F8323F0C4D80F2850 /* XVIEWTencentManager */,
+				D28B6C54FF19CCB8BAEF201A004DABB3 /* XVIEWWeChatManager */,
+				D45BB9656C8E6BCE1FCB932F1E9266C6 /* XVIEWWeiboManager */,
 			);
-			name = Frameworks;
+			name = Share;
 			sourceTree = "<group>";
 		};
-		E9FC6BBF28DB1948F1685FEE7D1E692A /* XVIEWPushManager */ = {
+		D28B6C54FF19CCB8BAEF201A004DABB3 /* XVIEWWeChatManager */ = {
 			isa = PBXGroup;
 			children = (
-				8AFE82486BC6A0BC0E68BA08018469B3 /* Frameworks */,
-				7C49C5F85BBBB1A7EBEA29DD909F6C45 /* XVIEWPushManager */,
+				E6D263F778CB35DBC038C89150BB19DC /* XVIEWWeChatManager.h */,
+				DFDFBC60A1A1D471F8EA11142A53EF8A /* Frameworks */,
 			);
-			name = XVIEWPushManager;
+			name = XVIEWWeChatManager;
+			sourceTree = "<group>";
+		};
+		D45BB9656C8E6BCE1FCB932F1E9266C6 /* XVIEWWeiboManager */ = {
+			isa = PBXGroup;
+			children = (
+				01E848B310FE1FA6EF5D1BD28AB95E5F /* XVIEWWeiboManager.h */,
+				AB1350C1FD257A1A4BD1E7277F3F8584 /* Frameworks */,
+			);
+			name = XVIEWWeiboManager;
+			sourceTree = "<group>";
+		};
+		DFDFBC60A1A1D471F8EA11142A53EF8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1D79E49D0270DA382072B10A03317E9 /* libWeChatManager.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EC36D5519A35E0577280BAA7DABB6023 /* ReducedWeChat */ = {
@@ -492,6 +580,15 @@
 			name = Social;
 			sourceTree = "<group>";
 		};
+		EE4E500A3B4F442F8323F0C4D80F2850 /* XVIEWTencentManager */ = {
+			isa = PBXGroup;
+			children = (
+				4C070C6E65B00E8DE3F0FB5578B4BCAA /* XVIEWTencentManager.h */,
+				221EC804063C783FAC4F0265BD285C9C /* Frameworks */,
+			);
+			name = XVIEWTencentManager;
+			sourceTree = "<group>";
+		};
 		F35F60E46BEDD72CDEBD980A35A35017 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,30 +597,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F53AF96A2B98B3D2423FADBC1DD86641 /* Share */ = {
+		FCF6759068602E4033A3D8D63E3CF326 /* XVIEWPushManager */ = {
 			isa = PBXGroup;
 			children = (
-				A49DB15E2E82C507461A79741A1B7D65 /* XVIEWAliManager.h */,
-				D94FE9B0BECDF0953DBF7FBEC5928D4E /* Frameworks */,
+				531BCF01D90F4F4CA1574AB7A4A2BCD4 /* Frameworks */,
+				6C2C76C5189DEE147D72EA3A5CC75BCD /* XVIEWPushManager */,
 			);
-			name = Share;
-			sourceTree = "<group>";
-		};
-		FB73AFCB2AD7C64D417394089099B14D /* XVIEWAnalyzeManager */ = {
-			isa = PBXGroup;
-			children = (
-				FD5D7FC4E749DE17521785FBBB9DF14C /* Frameworks */,
-				AF4DB817DAE9164BD99841D5B843B0C3 /* XVIEWAnalyzeManager */,
-			);
-			name = XVIEWAnalyzeManager;
-			sourceTree = "<group>";
-		};
-		FD5D7FC4E749DE17521785FBBB9DF14C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E911C3208A87D5A8F167ED3D5957456F /* libAnalyzeManager.a */,
-			);
-			name = Frameworks;
+			name = XVIEWPushManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
