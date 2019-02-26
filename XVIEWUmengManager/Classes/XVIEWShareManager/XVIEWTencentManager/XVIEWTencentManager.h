@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "XVIEWUmengShareManager.h"
+#import <XVIEWNewUmengShareManager/XVIEWUmengShareManager.h>
 
 @interface XVIEWTencentManager : XVIEWUmengShareManager
 
