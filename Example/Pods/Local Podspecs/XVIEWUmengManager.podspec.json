@@ -1,6 +1,6 @@
 {
   "name": "XVIEWUmengManager",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "summary": "Umeng库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWUmengManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWUmengManager.git",
-    "tag": "0.2.1"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "8.0"
@@ -71,81 +71,77 @@
       }
     },
     {
-      "name": "Share",
+      "name": "XVIEWTencentManager",
+      "source_files": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/*.h",
       "ios": {
-        "vendored_frameworks": "XVIEWUmengManager/Classes/XVIEWShareManager/*.framework"
+        "vendored_frameworks": "XVIEWUmengManager/Classes/XVIEWShareManager/*.framework",
+        "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/*.a"
       },
-      "subspecs": [
-        {
-          "name": "XVIEWTencentManager",
-          "source_files": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/*.h",
-          "ios": {
-            "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/*.a"
-          },
-          "dependencies": {
-            "UMCCommon": [
-              "~> 1.5.3"
-            ],
-            "TencentOpenApiSDK": [
-              "~> 2.9.5"
-            ],
-            "UMCShare/Social/ReducedQQ": [
+      "dependencies": {
+        "UMCCommon": [
+          "~> 1.5.3"
+        ],
+        "TencentOpenApiSDK": [
+          "~> 2.9.5"
+        ],
+        "UMCShare/Social/ReducedQQ": [
 
-            ]
-          }
-        },
-        {
-          "name": "XVIEWWeChatManager",
-          "source_files": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.h",
-          "ios": {
-            "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.a"
-          },
-          "dependencies": {
-            "UMCCommon": [
-              "~> 1.5.3"
-            ],
-            "WechatOpenSDK": [
-              "~>1.8.3"
-            ],
-            "UMCShare/Social/ReducedWeChat": [
+        ]
+      }
+    },
+    {
+      "name": "XVIEWWeChatManager",
+      "source_files": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.h",
+      "ios": {
+        "vendored_frameworks": "XVIEWUmengManager/Classes/XVIEWShareManager/*.framework",
+        "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.a"
+      },
+      "dependencies": {
+        "UMCCommon": [
+          "~> 1.5.3"
+        ],
+        "WechatOpenSDK": [
+          "~>1.8.3"
+        ],
+        "UMCShare/Social/ReducedWeChat": [
 
-            ]
-          }
-        },
-        {
-          "name": "XVIEWWeiboManager",
-          "source_files": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeiboManager/*.h",
-          "ios": {
-            "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeiboManager/*.a"
-          },
-          "dependencies": {
-            "UMCCommon": [
-              "~> 1.5.3"
-            ],
-            "UMCShare/Social/ReducedSina": [
+        ]
+      }
+    },
+    {
+      "name": "XVIEWWeiboManager",
+      "source_files": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeiboManager/*.h",
+      "ios": {
+        "vendored_frameworks": "XVIEWUmengManager/Classes/XVIEWShareManager/*.framework",
+        "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeiboManager/*.a"
+      },
+      "dependencies": {
+        "UMCCommon": [
+          "~> 1.5.3"
+        ],
+        "UMCShare/Social/ReducedSina": [
 
-            ]
-          }
-        },
-        {
-          "name": "XVIEWAliManager",
-          "source_files": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.h",
-          "ios": {
-            "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.a"
-          },
-          "dependencies": {
-            "UMCCommon": [
-              "~> 1.5.3"
-            ],
-            "AlipaySDK-iOS": [
+        ]
+      }
+    },
+    {
+      "name": "XVIEWAliManager",
+      "source_files": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.h",
+      "ios": {
+        "vendored_frameworks": "XVIEWUmengManager/Classes/XVIEWShareManager/*.framework",
+        "vendored_libraries": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.a"
+      },
+      "dependencies": {
+        "UMCCommon": [
+          "~> 1.5.3"
+        ],
+        "AlipaySDK-iOS": [
 
-            ],
-            "UMCShare/Social/AlipayShare": [
+        ],
+        "UMCShare/Social/AlipayShare": [
 
-            ]
-          }
-        }
-      ]
+        ]
+      }
     }
   ]
 }

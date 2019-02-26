@@ -60,38 +60,38 @@ TODO: Add long description of the pod here.
 #      ss.dependency 'UMCCommon','~> 1.5.3'
 #      sss.dependency 'UMCShare/Social/ReducedQQ'
 #  end
-  s.subspec 'Share' do |ss|
-      ss.ios.vendored_frameworks = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.framework'
-      ss.subspec 'XVIEWTencentManager' do |sss|
+#  s.subspec 'Share' do |ss|
+#      ss.ios.vendored_frameworks = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.framework'
+     s.subspec 'XVIEWTencentManager' do |sss|
          sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/*.h'
+         sss.ios.vendored_frameworks = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.framework'
          sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/*.a'
          sss.dependency 'UMCCommon','~> 1.5.3'
          sss.dependency 'TencentOpenApiSDK', '~> 2.9.5'
          sss.dependency 'UMCShare/Social/ReducedQQ'
-#         sss.dependency 'XVIEWUmengManager/XVIEWShare'
      end
-     ss.subspec 'XVIEWWeChatManager' do |sss|
+     s.subspec 'XVIEWWeChatManager' do |sss|
          sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.h'
+         sss.ios.vendored_frameworks = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.framework'
          sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.a'
          sss.dependency 'UMCCommon','~> 1.5.3'
          sss.dependency 'WechatOpenSDK','~>1.8.3'
          sss.dependency 'UMCShare/Social/ReducedWeChat'
-#         sss.dependency 'XVIEWUmengManager/XVIEWShare'
      end
-     ss.subspec 'XVIEWWeiboManager' do |sss|
+     s.subspec 'XVIEWWeiboManager' do |sss|
          sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeiboManager/*.h'
+         sss.ios.vendored_frameworks = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.framework'
          sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeiboManager/*.a'
          sss.dependency 'UMCCommon','~> 1.5.3'
          sss.dependency 'UMCShare/Social/ReducedSina'
-#         sss.dependency 'XVIEWUmengManager/XVIEWShare'
      end
-     ss.subspec 'XVIEWAliManager' do |sss|
+     s.subspec 'XVIEWAliManager' do |sss|
        sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.h'
+       sss.ios.vendored_frameworks = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.framework'
        sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.a'
        sss.dependency 'UMCCommon','~> 1.5.3'
        sss.dependency 'AlipaySDK-iOS'
        sss.dependency 'UMCShare/Social/AlipayShare'
-#       sss.dependency 'XVIEWUmengManager/XVIEWShare'
      end
-  end
+#  end
 end
