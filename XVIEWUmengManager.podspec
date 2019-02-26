@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWUmengManager'
-  s.version          = '0.1.5'
+  s.version          = '0.1.7'
   s.summary          = 'Umeng库'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -58,38 +58,39 @@ TODO: Add long description of the pod here.
   s.subspec 'XVIEWShare' do |ss|
       ss.ios.vendored_frameworks = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.framework'
       ss.dependency 'UMCCommon','~> 1.5.3'
+      ss.dependency 'UMCShare/Social/ReducedQQ'
   end
   s.subspec 'Share' do |ss|
       ss.subspec 'XVIEWTencentManager' do |sss|
-          sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/*.h'
-          sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/*.a'
-          sss.dependency 'UMCCommon','~> 1.5.3'
-          sss.dependency 'TencentOpenApiSDK', '~> 2.9.5'
-          sss.dependency 'UMCShare/Social/ReducedQQ'
-          sss.dependency 'XVIEWUmengManager/XVIEWShare'
-      end
-      ss.subspec 'XVIEWWeChatManager' do |sss|
-          sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.h'
-          sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.a'
-          sss.dependency 'UMCCommon','~> 1.5.3'
-          sss.dependency 'WechatOpenSDK','~>1.8.3'
-          sss.dependency 'UMCShare/Social/ReducedWeChat'
-          sss.dependency 'XVIEWUmengManager/XVIEWShare'
-      end
-      ss.subspec 'XVIEWWeiboManager' do |sss|
-          sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeiboManager/*.h'
-          sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeiboManager/*.a'
-          sss.dependency 'UMCCommon','~> 1.5.3'
-          sss.dependency 'UMCShare/Social/ReducedSina'
-          sss.dependency 'XVIEWUmengManager/XVIEWShare'
-      end
-      ss.subspec 'XVIEWAliManager' do |sss|
-         sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.h'
-        sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.a'
-        sss.dependency 'UMCCommon','~> 1.5.3'
-        sss.dependency 'AlipaySDK-iOS'
-        sss.dependency 'UMCShare/Social/AlipayShare'
-        sss.dependency 'XVIEWUmengManager/XVIEWShare'
-      end
+         sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/*.h'
+         sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWTencentManager/*.a'
+         sss.dependency 'UMCCommon','~> 1.5.3'
+         sss.dependency 'TencentOpenApiSDK', '~> 2.9.5'
+         sss.dependency 'UMCShare/Social/ReducedQQ'
+         sss.dependency 'XVIEWUmengManager/XVIEWShare'
+     end
+     ss.subspec 'XVIEWWeChatManager' do |sss|
+         sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.h'
+         sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.a'
+         sss.dependency 'UMCCommon','~> 1.5.3'
+         sss.dependency 'WechatOpenSDK','~>1.8.3'
+         sss.dependency 'UMCShare/Social/ReducedWeChat'
+         sss.dependency 'XVIEWUmengManager/XVIEWShare'
+     end
+     ss.subspec 'XVIEWWeiboManager' do |sss|
+         sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeiboManager/*.h'
+         sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeiboManager/*.a'
+         sss.dependency 'UMCCommon','~> 1.5.3'
+         sss.dependency 'UMCShare/Social/ReducedSina'
+         sss.dependency 'XVIEWUmengManager/XVIEWShare'
+     end
+     ss.subspec 'XVIEWAliManager' do |sss|
+       sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.h'
+       sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWAliManager/*.a'
+       sss.dependency 'UMCCommon','~> 1.5.3'
+       sss.dependency 'AlipaySDK-iOS'
+       sss.dependency 'UMCShare/Social/AlipayShare'
+       sss.dependency 'XVIEWUmengManager/XVIEWShare'
+     end
   end
 end

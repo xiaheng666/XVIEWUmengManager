@@ -1,6 +1,6 @@
 {
   "name": "XVIEWUmengManager",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "summary": "Umeng库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWUmengManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWUmengManager.git",
-    "tag": "0.1.6"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "8.0"
@@ -78,6 +78,9 @@
       "dependencies": {
         "UMCCommon": [
           "~> 1.5.3"
+        ],
+        "UMCShare/Social/ReducedQQ": [
+
         ]
       }
     },
