@@ -1,6 +1,6 @@
 {
   "name": "XVIEWUmengManager",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "summary": "Umeng库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWUmengManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWUmengManager.git",
-    "tag": "0.1.7"
+    "tag": "0.1.8"
   },
   "platforms": {
     "ios": "8.0"
@@ -71,21 +71,10 @@
       }
     },
     {
-      "name": "XVIEWShare",
+      "name": "Share",
       "ios": {
         "vendored_frameworks": "XVIEWUmengManager/Classes/XVIEWShareManager/*.framework"
       },
-      "dependencies": {
-        "UMCCommon": [
-          "~> 1.5.3"
-        ],
-        "UMCShare/Social/ReducedQQ": [
-
-        ]
-      }
-    },
-    {
-      "name": "Share",
       "subspecs": [
         {
           "name": "XVIEWTencentManager",
@@ -101,9 +90,6 @@
               "~> 2.9.5"
             ],
             "UMCShare/Social/ReducedQQ": [
-
-            ],
-            "XVIEWUmengManager/XVIEWShare": [
 
             ]
           }
@@ -123,9 +109,6 @@
             ],
             "UMCShare/Social/ReducedWeChat": [
 
-            ],
-            "XVIEWUmengManager/XVIEWShare": [
-
             ]
           }
         },
@@ -140,9 +123,6 @@
               "~> 1.5.3"
             ],
             "UMCShare/Social/ReducedSina": [
-
-            ],
-            "XVIEWUmengManager/XVIEWShare": [
 
             ]
           }
@@ -161,9 +141,6 @@
 
             ],
             "UMCShare/Social/AlipayShare": [
-
-            ],
-            "XVIEWUmengManager/XVIEWShare": [
 
             ]
           }
