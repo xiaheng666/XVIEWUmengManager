@@ -48,7 +48,7 @@ PODS:
   - XVIEWUmengManager/XVIEWWeChatManager (0.2.4):
     - UMCCommon (~> 1.5.3)
     - UMCShare/Social/ReducedWeChat
-    - WechatOpenSDK (~> 1.8.3)
+    - WechatOpenSDK (~> 1.8.4)
   - XVIEWUmengManager/XVIEWWeiboManager (0.2.4):
     - UMCCommon (~> 1.5.3)
     - UMCShare/Social/ReducedSina
@@ -78,7 +78,7 @@ SPEC CHECKSUMS:
   UMCPush: 628b5c61be5a5036cb31eb9b3a3ab8dce7521691
   UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
   WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
-  XVIEWUmengManager: 1c822fd476b06f9c87e3d21e731688ac4e56e8d9
+  XVIEWUmengManager: ce4542111a8e66756207333818f1a67d3e9dd536
 
 PODFILE CHECKSUM: 53c78bf7167b778174bd67746adcdc0a9c504be0
 
