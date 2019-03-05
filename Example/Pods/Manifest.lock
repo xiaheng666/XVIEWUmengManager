@@ -23,33 +23,33 @@ PODS:
     - UMCCommon
     - UMCShare/Core
   - WechatOpenSDK (1.8.4)
-  - XVIEWUmengManager (0.2.2):
+  - XVIEWUmengManager (0.2.4):
     - UMCCommon (~> 1.5.3)
-    - XVIEWUmengManager/XVIEWAliManager (= 0.2.2)
-    - XVIEWUmengManager/XVIEWAnalyzeManager (= 0.2.2)
-    - XVIEWUmengManager/XVIEWPushManager (= 0.2.2)
-    - XVIEWUmengManager/XVIEWTencentManager (= 0.2.2)
-    - XVIEWUmengManager/XVIEWWeChatManager (= 0.2.2)
-    - XVIEWUmengManager/XVIEWWeiboManager (= 0.2.2)
-  - XVIEWUmengManager/XVIEWAliManager (0.2.2):
+    - XVIEWUmengManager/XVIEWAliManager (= 0.2.4)
+    - XVIEWUmengManager/XVIEWAnalyzeManager (= 0.2.4)
+    - XVIEWUmengManager/XVIEWPushManager (= 0.2.4)
+    - XVIEWUmengManager/XVIEWTencentManager (= 0.2.4)
+    - XVIEWUmengManager/XVIEWWeChatManager (= 0.2.4)
+    - XVIEWUmengManager/XVIEWWeiboManager (= 0.2.4)
+  - XVIEWUmengManager/XVIEWAliManager (0.2.4):
     - AlipaySDK-iOS
     - UMCCommon (~> 1.5.3)
     - UMCShare/Social/AlipayShare
-  - XVIEWUmengManager/XVIEWAnalyzeManager (0.2.2):
+  - XVIEWUmengManager/XVIEWAnalyzeManager (0.2.4):
     - UMCAnalytics (~> 5.5.2)
     - UMCCommon (~> 1.5.3)
-  - XVIEWUmengManager/XVIEWPushManager (0.2.2):
+  - XVIEWUmengManager/XVIEWPushManager (0.2.4):
     - UMCCommon (~> 1.5.3)
     - UMCPush (~> 3.2.3)
-  - XVIEWUmengManager/XVIEWTencentManager (0.2.2):
+  - XVIEWUmengManager/XVIEWTencentManager (0.2.4):
     - TencentOpenApiSDK (~> 2.9.5)
     - UMCCommon (~> 1.5.3)
     - UMCShare/Social/ReducedQQ
-  - XVIEWUmengManager/XVIEWWeChatManager (0.2.2):
+  - XVIEWUmengManager/XVIEWWeChatManager (0.2.4):
     - UMCCommon (~> 1.5.3)
     - UMCShare/Social/ReducedWeChat
     - WechatOpenSDK (~> 1.8.3)
-  - XVIEWUmengManager/XVIEWWeiboManager (0.2.2):
+  - XVIEWUmengManager/XVIEWWeiboManager (0.2.4):
     - UMCCommon (~> 1.5.3)
     - UMCShare/Social/ReducedSina
 
@@ -78,7 +78,7 @@ SPEC CHECKSUMS:
   UMCPush: 628b5c61be5a5036cb31eb9b3a3ab8dce7521691
   UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
   WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
-  XVIEWUmengManager: 44e7bf6285339a3d1e8fd565e19f6cdd829977ce
+  XVIEWUmengManager: 1c822fd476b06f9c87e3d21e731688ac4e56e8d9
 
 PODFILE CHECKSUM: 53c78bf7167b778174bd67746adcdc0a9c504be0
 

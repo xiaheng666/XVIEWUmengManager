@@ -1,6 +1,6 @@
 {
   "name": "XVIEWUmengManager",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "summary": "Umeng库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWUmengManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWUmengManager.git",
-    "tag": "0.2.2"
+    "tag": "0.2.4"
   },
   "platforms": {
     "ios": "8.0"
