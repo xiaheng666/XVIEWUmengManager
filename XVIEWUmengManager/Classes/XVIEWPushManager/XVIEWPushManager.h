@@ -19,7 +19,6 @@
  * 注册推送
  @param param   data{launchOptions 启动参数,appId:推送key}
                 callback:回调方法
- 
  */
 - (void)registerApp:(NSDictionary *)param;
 
@@ -32,7 +31,7 @@
 /**
  * 取消推送
  */
-- (void)unregisterPush;
+- (void)unregisterPush:(NSDictionary *)param;;
 
 /**
  * 设置别名
