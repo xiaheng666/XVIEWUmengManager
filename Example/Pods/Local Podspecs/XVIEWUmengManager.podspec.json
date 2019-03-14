@@ -1,6 +1,6 @@
 {
   "name": "XVIEWUmengManager",
-  "version": "0.2.9",
+  "version": "0.3.0",
   "summary": "Umeng库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWUmengManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWUmengManager.git",
-    "tag": "0.2.9"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -93,14 +93,14 @@
       "name": "XVIEWWeChatManager",
       "source_files": "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.h",
       "ios": {
-        "vendored_frameworks": [
-          "XVIEWUmengManager/Classes/XVIEWShareManager/*.framework",
-          "XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.framework"
-        ]
+        "vendored_frameworks": "XVIEWUmengManager/Classes/XVIEWShareManager/*.framework"
       },
       "dependencies": {
         "UMCCommon": [
           "~> 1.5.3"
+        ],
+        "WechatOpenSDK": [
+          "1.8.4"
         ],
         "UMCShare/Social/ReducedWeChat": [
 
