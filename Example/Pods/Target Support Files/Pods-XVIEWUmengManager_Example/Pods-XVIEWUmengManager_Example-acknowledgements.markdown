@@ -51,6 +51,11 @@ Copyright 2011 - 2018 umeng.com. All rights reserved.
 Copyright 2011 - 2018 umeng.com. All rights reserved.
 
 
+## WechatOpenSDK
+
+Copyright 2019 tencent.com. All rights reserved.
+
+
 ## XVIEWUmengManager
 
 Copyright (c) 2019 maomao520benben <key@xiaheng.net>
