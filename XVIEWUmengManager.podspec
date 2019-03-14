@@ -75,7 +75,7 @@ TODO: Add long description of the pod here.
          sss.ios.vendored_frameworks = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.framework'
          sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.a'
          sss.dependency 'UMCCommon','~> 1.5.3'
-         sss.dependency 'WechatOpenSDK','~>1.8.4'
+         sss.dependency 'WechatOpenSDK','1.8.4'
          sss.dependency 'UMCShare/Social/ReducedWeChat'
      end
      s.subspec 'XVIEWWeiboManager' do |sss|
