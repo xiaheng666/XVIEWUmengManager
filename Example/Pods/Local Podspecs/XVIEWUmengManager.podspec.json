@@ -100,9 +100,6 @@
         "UMCCommon": [
           "~> 1.5.3"
         ],
-        "WechatOpenSDK": [
-          "~>1.8.4"
-        ],
         "UMCShare/Social/ReducedWeChat": [
 
         ]
