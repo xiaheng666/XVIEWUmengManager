@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWUmengManager'
-  s.version          = '0.2.8'
+  s.version          = '0.2.9'
   s.summary          = 'Umeng库'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -72,10 +72,9 @@ TODO: Add long description of the pod here.
      end
      s.subspec 'XVIEWWeChatManager' do |sss|
          sss.source_files = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.h'
-         sss.ios.vendored_frameworks = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.framework'
-         sss.ios.vendored_libraries = 'XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.a'
+         sss.ios.vendored_frameworks = 'XVIEWUmengManager/Classes/XVIEWShareManager/*.framework','XVIEWUmengManager/Classes/XVIEWShareManager/XVIEWWeChatManager/*.framework'
          sss.dependency 'UMCCommon','~> 1.5.3'
-         sss.dependency 'WechatOpenSDK','1.8.4'
+#         sss.dependency 'WechatOpenSDK','1.8.4'
          sss.dependency 'UMCShare/Social/ReducedWeChat'
      end
      s.subspec 'XVIEWWeiboManager' do |sss|
